@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики для вас</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="page_wrapper">
+
+      <header class="header_main">
+        <h1 class="header_title">Мурмаркет</h1>
+      </header>
+
+    <input class="filter-input rb-no" type="radio" name="filter" id="nothing" checked>
+    <input class="filter-input rb-siamese" type="radio" name="filter" id="siamese">
+    <input class="filter-input rb-devon-rex" type="radio" name="filter" id="devon-rex">
+    <input class="filter-input rb-turetskaya" type="radio" name="filter" id="turetskaya">
+    <input class="filter-input rb-alley" type="radio" name="filter" id="alley">
+    <input class="filter-input rb-oriental" type="radio" name="filter" id="oriental">
+    <input class="filter-input rb-maine-coon" type="radio" name="filter" id="maine-coon">
+    <input class="filter-input rb-burma" type="radio" name="filter" id="burma">
+    <input class="filter-input rb-bombey" type="radio" name="filter" id="bombey">
+    <input class="filter-input rb-european" type="radio" name="filter" id="european">
+
+      <div class="content_main">
+        <aside class="filter">
+          <h3 class="filter-name">Возраст</h3>
+          <section class="filter-age">
+              <div>
+                  <input type="checkbox" id="fa1">
+                  <label for="fa1">&lt;1 год</label>
+              </div>
+              <div>
+                  <input type="checkbox" id="fa2">
+                  <label for="fa2">1 год</label>
+              </div>
+              <div>
+                  <input type="checkbox" id="fa3">
+                  <label for="fa3">2 года</label>
+              </div>
+              <div>
+                  <input type="checkbox" id="fa4">
+                  <label for="fa4">3 года</label>
+              </div>
+              <div>
+                  <input type="checkbox" id="fa5">
+                  <label for="fa5">&gt;3 года</label>
+              </div>
+          </section>
+          <section class="filter-breed">
+              <h3 class="filter-name">Порода</h3>
+              <div class="filter-breed-elements">
+                  <label class="filter-breed-element lb-no" for="nothing">Не выбрано</label>
+                  <label class="filter-breed-element lb-alley" for="alley">Дворовая</label>
+                  <label class="filter-breed-element lb-european" for="european">Европейская</label>
+                  <label class="filter-breed-element lb-bombey" for="bombey">Бомбейская</label>
+                  <label class="filter-breed-element lb-burma" for="burma">Бурманская</label>
+                  <label class="filter-breed-element lb-maine-coon" for="maine-coon">Мэйн-Кун</label>
+                  <label class="filter-breed-element lb-oriental" for="oriental">Ориентальная</label>
+                  <label class="filter-breed-element lb-turetskaya" for="turetskaya">Турецкая ангора</label>
+                  <label class="filter-breed-element lb-devon-rex" for="devon-rex">Девон-рекс</label>
+                  <label class="filter-breed-element lb-siamese" for="siamese">Сиамская</label>
+              </div>
+          </section>
+        </aside>
+
+        <div class="cards-container">
+          <!-- Карточки котиков -->
+          <article class="card alley">
+            <img class="card-img" src="images/borabora.jpg" title="Бора-бора" alt="Бора-бора">
+            <div class="card-text-content">
+              <a class="card-title" href="#borabora">Бора-бора</a>
+              <p class="card-desc-small">
+                Возраст: около 6 месяцев<br>Порода: нет<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Бора-Бора – ласковый и дружелюбный кот.<br><br>Очень любит внимание и заботу. Приучен к рукам. Можно взять в паре с другим котом или кошкой.
+            </p>
+          </article>
+
+          <article class="card burma">
+            <img class="card-img" src="images/leo.jpg" title="Лео" alt="Лео">
+            <div class="card-text-content">
+              <a class="card-title" href="#leo">Лео</a>
+              <p class="card-desc-small">
+                Возраст: около 1 года<br>Порода: Бурма<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Лео - порядочный и послушный кот.<br><br>Охотно играется с ленточкой и фонариком. Приучен к лотку.
+            </p>
+          </article>
+
+          <article class="card siamese">
+            <img class="card-img" src="images/Siamese.jfif" title="Сиамская кошка" alt="Сиамская кошка">
+            <div class="card-text-content">
+              <a class="card-title" href="#milka">Милка</a>
+              <p class="card-desc-small">
+                Возраст: 2 года<br>Порода: сиамская<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Милка - игривая кошка.<br><br>Любит играть с мячиком и лазить по деревьям. Ищет любящую семью, которая будет с неё гулять и играть.
+            </p>
+          </article>
+
+          <article class="card devon-rex">
+            <img class="card-img" src="images/devon-rex.jpg" title="Девон-рекс" alt="Девон-рекс">
+            <div class="card-text-content">
+              <a class="card-title" href="#devi">Деви</a>
+              <p class="card-desc-small">
+                Возраст: около 9 месяцев<br>Порода: Девон-рекс<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Деви - очень ласковая кошка.<br><br>Любит спать на коленях. Ищет семью, которая будет её любить и заботиться о ней.
+            </p>
+          </article>
+
+          <article class="card bombey">
+            <img class="card-img" src="images/bombeyskaya.jpg" title="Бомбейская" alt="Бомбейская">
+            <div class="card-text-content">
+              <a class="card-title" href="#michi">Мичи</a>
+              <p class="card-desc-small">
+                Возраст: 1.5 года<br>Порода: Бомбейская<br>Болезни: слабые лапки
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Мичи - умный кот.<br><br>Он любит искать спрятанные вещи и бегать по лабиринтам. Ищет семью, которая будет с ним играть и удовлетворять его любопытство.
+            </p>
+          </article>
+
+          <article class="card oriental">
+            <img class="card-img" src="images/orientalnaya.jpg" title="Ориентальная" alt="Ориентальная">
+            <div class="card-text-content">
+              <a class="card-title" href="#keysi">Кейси</a>
+              <p class="card-desc-small">
+                Возраст: 1 год<br>Порода: Ориентальная<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Кейси - интроверт.<br><br>Кейси любит наблюдать за происходящим свысока и наслаждаться нежными поглаживаниями. Идеальный компаньон для спокойных людей.
+            </p>
+          </article>
+
+          <article class="card maine-coon">
+            <img class="card-img" src="images/dimok.jfif" title="Дымок" alt="Дымок">
+            <div class="card-text-content">
+              <a class="card-title" href="#dimok">Дымок</a>
+              <p class="card-desc-small">
+                Возраст: около 1.3 лет<br>Порода: Мэйн-Кун<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Дымок - активный кот.<br><br>Обожает гоняться за лазерной указкой и прятаться в коробках. Подарит массу радости активной семье.
+            </p>
+          </article>
+
+          <article class="card turetskaya">
+            <img class="card-img" src="images/turetskaya.jpg" title="Турецкая ангора" alt="Турецкая ангора">
+            <div class="card-text-content">
+              <a class="card-title" href="#lyusya">Люся</a>
+              <p class="card-desc-small">
+                Возраст: около 6 месяцев<br>Порода: Турецкая ангора<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Люся - ласковая и доверчивая кошечка.<br><br>Обожает сидеть на коленях и мурлыкать часами. Станет верным другом для одиноких людей.
+            </p>
+          </article>
+
+          <article class="card sfinks">
+            <img class="card-img" src="images/sfinks.jpg" title="Сфинкс" alt="Сфинкс">
+            <div class="card-text-content">
+              <a class="card-title" href="#jack">Джек</a>
+              <p class="card-desc-small">
+                Возраст: 1 год<br>Порода: Сфинкс<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Джек - нежный кот.<br><br>Джек любит спать на солнышке и наблюдать за происходящим вокруг. Его мурлыканье успокаивает и дарит уют.
+            </p>
+          </article>
+
+          <article class="card european">
+            <img class="card-img" src="images/evropeyskaya.jpg" title="Европейская" alt="Европейская">
+            <div class="card-text-content">
+              <a class="card-title" href="#musya">Муся</a>
+              <p class="card-desc-small">
+                Возраст: 3 года<br>Порода: Европейская<br>Болезни: слезятся глазки
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Муся - тихоня.<br><br>Любит спать в укромных уголках. Её таинственность и загадочность интригуют и привлекают.
+            </p>
+          </article>
+
+          <article class="card alley">
+            <img class="card-img" src="images/abissinskaya.jpg" title="Абиссинская" alt="Абиссинская">
+            <div class="card-text-content">
+              <a class="card-title" href="#shusha">Шуша</a>
+              <p class="card-desc-small">
+                Возраст: около 10 месяцев<br>Порода: нет<br>Болезни: нет
+              </p>
+              <p class="card-status">
+                Статус: ищет хозяина
+              </p>
+            </div>
+            <p class="card-desc-full">
+              Шуша - чудесная.<br><br>Рыжий кот, словно маленький солнечный зайчик. Любит играть с детьми и бегать по квартире. Его энергия и жизнерадостность поднимают настроение.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <footer class="footer-main">
+        <div class="footer-left">
+          <p class="contact-us">Напишите нам:</p>
+          <a class="email" href="mailto:cats@babuli.ru">cats@babuli.ru</a>
+          <a class="email" href="mailto:vnuchek@babuli.ru">vnuchek@babuli.ru</a>
+        </div>
+        <div class="footer-right">
+          <p>© 2018 ООО «<a href="./index.html">Бабушкины котятки</a>»</p>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>
